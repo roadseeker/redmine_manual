@@ -37,8 +37,7 @@
 
         * 식별자는 영문으로 작성함
 
-        ![redmine_image-004](https://user-images.githubusercontent.com/5433728/154024674-6f298f36-3bb5-44d5-a898-ae447d123261.png)
-
+        ![redmine_image-004](https://user-images.githubusercontent.com/5433728/154061595-5df41063-ad06-4d36-a13a-78eff7cc8d0b.png)
 ---
 4. 프로젝트에 신규 구성
 
@@ -46,13 +45,16 @@
     * 화면에서 새 구성원을 선택한다.
     * 모바일이커머스신규구축에 관련된 사용자를 프로젝트 구성원으로 등록한다. 
 
-        ![redmine_image-006](https://user-images.githubusercontent.com/5433728/154025309-d7adab5e-cd79-41ed-b679-5d79ab6699d9.png)
+        ![redmine_image-006](https://user-images.githubusercontent.com/5433728/154061602-b6cfac4d-e6e2-48ed-9e01-73b999a913f2.png)
+    
+    * 사용자를 선택하여 프로젝트의 구성원으로 배정한다. 프로젝트에 등록된 사용자에게 모바일 이커머스신규구축 프로젝트가 보여진다. 
+   
 
-        ![redmine_image-007](https://user-images.githubusercontent.com/5433728/154025314-5fbf0b60-bc9d-4b2b-8b33-836ba0afe4ca.png)
+        ![redmine_image-007](https://user-images.githubusercontent.com/5433728/154061604-337827e6-6876-43e9-af3f-d7917069af87.png)
 
     * 모바일이커머스신규구축에 등록된 사용자는 프로젝트에 참여하여 본인에게 배정된 일감을 확인하고 관리할 수 있다 
 
-        ![redmine_image-008](https://user-images.githubusercontent.com/5433728/154025317-700222f1-082f-4056-ac90-08857312173b.png)
+        ![redmine_image-008](https://user-images.githubusercontent.com/5433728/154061606-cdae5827-7e36-4347-aa93-6624f8a1f678.png)
 
 ---
 5. 일감유형, 일감상태, 업무흐름 코드 한글화 
@@ -145,7 +147,7 @@
         * **_일감 가져오기_** 화면의 파일 선택버튼을 클릭한다.  
 
             ![redmine_image-029](https://user-images.githubusercontent.com/5433728/154028443-79ec2bf7-89c0-4720-9cb2-25b3ddb9530a.png)
-            
+
         * 옵션을 선택한다. 
             * 구분자: 쉼표(,)
             * 묶음기호: 큰따옴표
