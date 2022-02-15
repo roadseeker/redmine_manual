@@ -1,1 +1,1 @@
-"# redmine_manual" 
+# redmine_manual
