@@ -136,7 +136,7 @@
         * 다건 업로드용 예제 파일
             [쇼핑엔티_WBS_레드마인_업로드.csv](https://github.com/roadseeker/redmine_manual/files/8068922/redmine_upload_wbs_example.csv)
 
-        * 단건 업로드 cvs 파일 예시 화면이다.
+        * 다건 업로드 cvs 파일 예시 화면이다.
 
             ![redmine_image-040](https://user-images.githubusercontent.com/5433728/154028475-248ad74e-655a-495f-8224-42ce08b20302.png)
 
