@@ -3,6 +3,8 @@
 
 ## 레드마인 설치
 ### Docker 설치하기
+
+### 관리자 
 1. 사용자 등록하기
    
     *  프로젝트 각 사용자는 자신의 로그인 계정을 등록한다
@@ -18,7 +20,7 @@
 ---
 2. 사용자 활성화하기
 
-    * **_활성화_** 버튼을 클릭하면 사용자가 로그인 할 수 있다
+    * 관리자 권한으로 로그인 후 관라>사용자관리 화면에서  **_활성화_** 버튼을 클릭하면 사용자가 로그인 할 수 있다
 
         ![redmine_image-005](https://user-images.githubusercontent.com/5433728/154023905-521317dc-def3-459e-9b6d-fbdb41f12f8e.png)
 
@@ -39,7 +41,7 @@
 
         ![redmine_image-004](https://user-images.githubusercontent.com/5433728/154061595-5df41063-ad06-4d36-a13a-78eff7cc8d0b.png)
 ---
-4. 프로젝트에 신규 구성
+4. 프로젝트에 프로젝트 참여인원 구성
 
     * 관리하고자하는 프로젝트를 선택하고(예제: 모바일이커머스신규구축) 설정 메뉴에서 구성원을 프로젝트에 배정한다.  
     * 화면에서 새 구성원을 선택한다.
@@ -132,11 +134,11 @@
     
 
     2. 다건 등록 
-        * 등록해야 할 일감이 많은 경우 엑셀(cvs) 파일을 이용하여 등록한다. 
+        * 등록해야 할 일감이 많은 경우 엑셀(csv) 파일을 이용하여 등록한다. 
         * 다건 업로드용 예제 파일
             [쇼핑엔티_WBS_레드마인_업로드.csv](https://github.com/roadseeker/redmine_manual/files/8068922/redmine_upload_wbs_example.csv)
 
-        * 다건 업로드 cvs 파일 예시 화면이다.
+        * 다건 업로드 csv 파일 예시 화면이다.
 
             ![redmine_image-040](https://user-images.githubusercontent.com/5433728/154028475-248ad74e-655a-495f-8224-42ce08b20302.png)
 
@@ -154,8 +156,9 @@
             * 인코딩: EUC-KR
             * 날자형식: YYYY-MM-DD
             ![redmine_image-030](https://user-images.githubusercontent.com/5433728/154028445-6f2775b2-b1b5-49bb-9b7e-fcae01e5edb3.png)
-        * 엑셀(cvs) 파일의 필드와 레드마인의 항록과 연결정보를 설정한다. 대부분 디폴트값으로 선택된다.
-        * Relations mapping Unique Id 값으로 사용될 필드와 상위일감 정보가 등록 필드를 선택한다. 
+        * 엑셀(csv) 파일의 필드와 레드마인의 항록과 연결정보를 설정한다. 대부분 디폴트값으로 선택된다.
+        * Relations mapping의 Unique Id 값으로 사용될 필드와 상위일감 정보를 등록 필드로 선택한다. 
+        * 해당 관계를 설정하면 상위일감에 하위 일감이 연결되고 Gantt chart에서 일감이 하아라키 구조로 보여진다.
             ![redmine_image-036](https://user-images.githubusercontent.com/5433728/154028460-c0f5cb34-2223-4002-9ffd-af3683b0507b.png) 
         * **_가져오기_** 버튼을 클릭하면 진행상태가 보여진다. 
             ![redmine_image-032](https://user-images.githubusercontent.com/5433728/154028448-7832e318-b27f-4566-a415-a34502a5ec38.png) 
