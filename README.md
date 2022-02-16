@@ -158,7 +158,7 @@
             ![redmine_image-030](https://user-images.githubusercontent.com/5433728/154028445-6f2775b2-b1b5-49bb-9b7e-fcae01e5edb3.png)
         * 엑셀(csv) 파일의 필드와 레드마인의 항록과 연결정보를 설정한다. 대부분 디폴트값으로 선택된다.
         * Relations mapping의 Unique Id 값으로 사용될 필드와 상위일감 정보를 등록 필드로 선택한다. 
-        * 해당 관계를 설정하면 상위일감에 하위 일감이 연결되고 Gantt chart에서 일감이 하아라키 구조로 보여진다.
+
             ![redmine_image-036](https://user-images.githubusercontent.com/5433728/154028460-c0f5cb34-2223-4002-9ffd-af3683b0507b.png) 
         * **_가져오기_** 버튼을 클릭하면 진행상태가 보여진다. 
             ![redmine_image-032](https://user-images.githubusercontent.com/5433728/154028448-7832e318-b27f-4566-a415-a34502a5ec38.png) 
@@ -167,4 +167,5 @@
         * 일감목록을 화면을 확인하면 다건으로 등록된 목록이 보여진다. 
             ![redmine_image-038](https://user-images.githubusercontent.com/5433728/154028470-8bbd716c-02b9-4c82-ae9d-badb39099646.png)
         * 간트 차트로 보여지는 일감 목록이다. 
+        * 상위일감과 하위일감 관계를 설정하면 상위일감에 하위 일감이 연결되고 Gantt chart에서 일감이 계층 구조로 보여진다.
             ![redmine_image-039](https://user-images.githubusercontent.com/5433728/154028473-a413426e-b39a-4c49-a795-d3039c0199d9.png)
