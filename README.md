@@ -4,7 +4,43 @@
 ## 레드마인 설치
 ### Docker 설치하기
 
-### 관리자 
+```
+Step 1: Create a network
+$ docker network create redmine-network
+```
+```
+Step 2: Create a volume for MariaDB persistence and create a MariaDB container
+$ docker volume create --name mariadb_data
+
+$ docker run -d --name mariadb \
+  --env ALLOW_EMPTY_PASSWORD=yes \
+  --env MARIADB_USER=bn_redmine \
+  --env MARIADB_PASSWORD=bitnami \
+  --env MARIADB_DATABASE=bitnami_redmine \
+  --network redmine-network \
+  --volume mariadb_data:/bitnami/mariadb \
+  bitnami/mariadb:latest
+
+```
+
+```
+Step 3: Create volumes for Redmine persistence and launch the container
+$ docker volume create --name redmine_data
+
+$ docker run -d --name redmine \
+  -p 8080:3000 \
+  --env ALLOW_EMPTY_PASSWORD=yes \
+  --env REDMINE_DATABASE_USER=bn_redmine \
+  --env REDMINE_DATABASE_PASSWORD=bitnami \
+  --env REDMINE_DATABASE_NAME=bitnami_redmine \
+  --network redmine-network \
+  --volume redmine_data:/bitnami/redmine \
+  bitnami/redmine:latest
+
+```
+* 로그인  user / bitnami1
+
+### 관리자 매뉴얼
 1. 사용자 등록하기
    
     *  프로젝트 각 사용자는 자신의 로그인 계정을 등록한다
@@ -169,3 +205,5 @@
         * 간트 차트로 보여지는 일감 목록이다. 
         * 상위일감과 하위일감 관계를 설정하면 상위일감에 하위 일감이 연결되고 Gantt chart에서 일감이 계층 구조로 보여진다.
             ![redmine_image-039](https://user-images.githubusercontent.com/5433728/154028473-a413426e-b39a-4c49-a795-d3039c0199d9.png)
+
+8. 참고자료
